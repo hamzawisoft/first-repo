@@ -53,6 +53,20 @@ This document outlines the product requirements for a massive-scale, highly secu
   - **Global Insights:** Aggregates real-time data from the centralized/decentralized National Knowledge Base.
   - **Scenario Analysis:** Can simulate outcomes based on data points from multiple ministries.
 
+#### 4.5. The Security & Compliance Agent
+- **Role:** The system's internal auditor and security watchdog.
+- **Capabilities:**
+  - **Code & Action Review:** Automatically audits every change proposed by the Developer Agent in the staging environment before human review.
+  - **Regulatory Compliance:** Ensures all data handling, modifications, and integrations strictly adhere to the state's cyber security laws, privacy regulations, and compliance frameworks.
+  - **Anomaly Detection:** Continuously monitors all inter-agent communications and system logs to identify unauthorized access attempts or suspicious activities.
+
+#### 4.6. The Data Analyst / BI Agent (Strategic Analyst)
+- **Role:** Dedicated Business Intelligence and data specialist for ministers and top-tier decision-makers.
+- **Capabilities:**
+  - **Cross-Institutional Reporting:** Connects disparate data points across various ministries via the National Knowledge Base to generate comprehensive, holistic strategic reports.
+  - **Advanced Visualizations:** Autonomously generates interactive charts, dashboards, and projections without requiring the user to open individual ERP modules.
+  - **Predictive Analytics:** Identifies trends across government sectors to forecast potential economic or operational challenges.
+
 ### 5. System Features & Requirements
 
 #### 5.1. Agent Capabilities (Universal)
